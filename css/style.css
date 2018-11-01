@@ -1,0 +1,236 @@
+ 
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body{
+    font-family: 'GothamRoundedBook', Helvetica, sans-serif  ;
+   margin: 0;
+   padding: 0
+}
+header{
+    background: url(../img/main-bg.jpg) center top no-repeat;
+     
+    
+}
+h1,h2,h3,h4,h5{
+    font-family: "GothamRoundedBold", sans-serif ;
+    text-transform: uppercase;
+}
+ 
+
+ul, li{
+    display: block;
+    padding: 0;  /*бнуляем отступы и делаем блоки*/
+    margin: 0;
+
+}
+i {
+font-family: fontawesome !important;
+}
+.menu {
+    font-family: 'GothamRoundedBold', sans-serif  ;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 60px  ;
+
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 5px;
+    font-weight: 700;
+
+}
+
+ span{
+    margin-top: -20px;
+}
+ 
+.header__title{
+    color: white;
+    text-align: center;
+    margin-top: 230px ;
+
+}
+ 
+.button__icon{
+    font-family: "GothamRoundedBold", sans-serif ;
+    border-radius: 4px;
+    width: 168px;
+    background-color: #04bf91;
+    color: white;
+    width: 168px;
+    height: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: .15s ease-in-out;
+    display: inline-block;   
+}
+.button__icon:hover {
+  border: 1px solid white; 
+  color: white;
+  background-color: transparent;
+} 
+
+.header__icons{
+    margin-top: 140px;
+    padding-bottom: 30px;
+}
+.icons a{
+    color: white; 
+    font-size: 32px;  
+     margin: 12px;
+
+}
+.icons__item a:hover {
+    text-decoration: none;
+    color: #04bf91;
+
+}
+.iphone{
+    background-color: #f5f6f7;
+    padding-top: 112px;
+}
+.about__app h2{
+    font-size: 22px;
+    color: #04bf91;
+}
+.about__app p{
+     font-family: 'GothamRoundedBook', Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #373737;
+}
+.about__app span{
+    font-weight: 700;
+}
+.button__about:hover{
+    
+  border: 1px solid #04bf91; 
+  color: #04bf91;
+  background-color: transparent;
+}
+.about__design{
+    margin-top: 112px;
+}
+.arrow {
+    font-weight: 700;
+    font-size: 20px;
+   
+
+}
+.arrow pre{
+    font-size: 25px;
+    margin-top: -25px;
+    margin-left: 0;
+}
+.community{
+    background-color: #f5f6f7;
+    padding-top: 112px;
+}
+.community h3{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.community p{
+    font-size: 14px;
+    text-align: center;
+}
+.our{
+    text-align: center;
+    margin-top:55px;
+}
+.our__photo{
+    margin: 30px;
+    padding-bottom: 112px;
+} 
+.subscribe{
+    background: url(../img/images.jpeg) center   no-repeat;
+  
+}
+.subscribe h4{
+    color: white;
+    text-align: center;
+    padding-top: 350px;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
+   color:  #b4b9bc;
+   text-transform: uppercase;
+}
+input{
+    height: 45px;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 12px;
+    font-weight: 700;
+    width: 230px;
+    padding-left: 20px;
+    }
+.button__us{
+        height: 45px;
+        width: 45px;
+        margin-top: -1px;
+        border-radius: 0;
+
+    }
+.subscribe__us {
+    text-align: center;
+    padding-bottom: 350px;
+}
+.subscribe__us i {
+    position: relative;
+    display: block;
+}
+.download{
+    background-color: #f5f6f7;
+}
+.download__text{
+    text-align: center;
+}
+.download h3{
+    margin-top: 90px;
+    font-size: 20px;
+    text-align: center;
+}
+.download p{
+    font-size: 14px;
+    text-align: center;
+}
+.download__text i{
+    margin-left: 40px;
+    font-size: 24px;
+}
+.button__down{
+    width: 200px;
+    height: 55px;
+    margin: 20px;
+    font-size: 14px;  
+    margin-bottom: 112px;
+}
+.button__down:hover{    
+  border: 1px solid #04bf91; 
+  color: #04bf91;
+  background-color: transparent;
+}
+.footer{
+    margin-top: 50px;
+}
+.footer h4{
+    font-size: 16px;
+}
+.footer p{
+    font-size: 14px;
+}
+.footer__text span{
+    border-right: 3px solid #04bf91;
+    padding-right: 5px;
+}
+.footer__logo{
+    float: right;
+    padding-bottom: 50px;
+}
